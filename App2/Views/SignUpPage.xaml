@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.SignUpPage"
+             xmlns:custom="clr-namespace:App2.ViewModels"
+             Title="Custom Entry"
+             BackgroundColor="Black"
+             >
+    <ContentPage.Content>
+        <StackLayout x:Name="MasterLayout">
+            <StackLayout x:Name="LogoStack"  VerticalOptions="FillAndExpand">
+                <Label x:Name="LblLOGO"
+                       Text="Vaultafed" 
+                       FontSize="80" 
+                       IsVisible="False"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand"
+                       TextColor="#dec610"
+                       HeightRequest="120" />
+
+                <Image Source="LoginIcon.png" 
+                       VerticalOptions="CenterAndExpand"
+                       HeightRequest="180"/>
+            </StackLayout>
+
+            <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
+                <StackLayout.Padding>
+                    <OnIdiom x:TypeArguments="Thickness">
+                        <OnIdiom.Phone>40,0,40,0</OnIdiom.Phone>
+                        <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
+                    </OnIdiom>
+                </StackLayout.Padding>
+
+                <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True"/>
+                <Grid>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="100*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame IsClippedToBounds="true" Padding="0" CornerRadius="25">
+                        <custom:CustomEntry
+                                x:Name="EntryUsername" 
+                                CornerRadius="18"
+                                IsCurvedCornersEnabled="True"
+                                
+                                HorizontalTextAlignment="Center"
+                                FontSize="17"
+                                HeightRequest="40"
+                                Placeholder="Username"
+                                PlaceholderColor="Wheat"
+                                BackgroundColor="#0bdb66"                                
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                WidthRequest="100"
+                                Visual="Material"/>
+                    </Frame>
+                    <Image Source="username.png"
+                       HeightRequest="20"
+                       WidthRequest="30"
+                       Margin="5"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                           />
+                </Grid>
+                
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="100*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Frame IsClippedToBounds="true" Padding="0" CornerRadius="25">
+                        <custom:CustomEntry
+                                x:Name="EntryPassword"
+                                CornerRadius="18"
+                                IsCurvedCornersEnabled="True"
+                                HorizontalTextAlignment="Center"
+                                FontSize="17"
+                                HeightRequest="40"
+                                Placeholder="Password"
+                                PlaceholderColor="Wheat"
+                                BackgroundColor="#0bdb66"                                
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                WidthRequest="100"
+                                Visual="Material" 
+                                IsPassword="true"/>
+                    </Frame>
+                    <Image Source="show_password.png"
+                       x:Name="ImageShowPassword"
+                       HeightRequest="30"
+                       WidthRequest="40"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"
+                           />
+                    <Image Source="password.png"
+                       HeightRequest="20"
+                       WidthRequest="30"
+                        Margin="5"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                           />
+                </Grid>
+          
+                <Grid>
+                    <Frame IsClippedToBounds="true" Padding="0" CornerRadius="25">
+                        <custom:CustomEntry
+                                x:Name="EntryName" 
+                                CornerRadius="18"
+                                IsCurvedCornersEnabled="True"   
+                                HorizontalTextAlignment="Center" 
+                                FontSize="17"
+                                HeightRequest="40" 
+                                Placeholder="Name"
+                                PlaceholderColor="Wheat"
+                                BackgroundColor="#0bdb66"                                
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                WidthRequest="100"
+                                Visual="Material"/>
+                    </Frame>
+                </Grid>
+                
+                <Grid>
+                    <Frame IsClippedToBounds="True" Padding="0" CornerRadius="25">
+                        <custom:CustomEntry
+                                x:Name="EntryLastName" 
+                                CornerRadius="18"
+                                IsCurvedCornersEnabled="True"
+                                HorizontalTextAlignment="Center"
+                                FontSize="17"
+                                HeightRequest="40"
+                                Placeholder="LastName"
+                                PlaceholderColor="Wheat"
+                                BackgroundColor="#0bdb66"                                
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                WidthRequest="100"
+                                Visual="Material"/>
+                    </Frame>
+                </Grid>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="100*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Frame IsClippedToBounds="true" Padding="0" CornerRadius="25">
+                        <custom:CustomEntry
+                                x:Name="EntryMail"
+                                CornerRadius="18"
+                                IsCurvedCornersEnabled="True"
+                                HorizontalTextAlignment="Center"
+                                FontSize="17"
+                                HeightRequest="40"
+                                Placeholder="example@mail.com"
+                                PlaceholderColor="Wheat"
+                                BackgroundColor="#0bdb66"                                
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                WidthRequest="100"
+                                Visual="Material"/>
+                    </Frame>
+                    <Image Source="mail_icon.png"
+                       HeightRequest="30"
+                       WidthRequest="30"
+                        Margin="5"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                           />
+                </Grid>
+
+                <Button x:Name="BtnLogIn"
+                           Text="Sign Up" 
+                            CornerRadius="20" 
+                            BorderWidth="1" 
+                            BorderColor="White" 
+                            TextColor="White"
+                            BackgroundColor="#e00460"
+                            WidthRequest="140"
+                            Margin="10"
+                            HorizontalOptions="CenterAndExpand" 
+                            Clicked="SignUpProcedure" />
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

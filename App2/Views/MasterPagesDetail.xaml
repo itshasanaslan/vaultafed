@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.MasterPagesDetail"
+             xmlns:views="clr-namespace:App2.Views"  
+             Title="HomePage"
+             SelectedTabColor="Red"
+             UnselectedTabColor="Black"
+            >
+    
+    <TabbedPage.Children>
+        
+        <views:FilesPage Title="Fıles"  IconImageSource="icon_photos_tab.png"/>
+        <views:NotesPage Title="Notes" IconImageSource="icon_add_note.png"/>
+        <views:PasswordsPage Title="Passwords" IconImageSource="icon_passwords_tab.png"/>
+      
+    </TabbedPage.Children>
+
+
+
+</TabbedPage>
