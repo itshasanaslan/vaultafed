@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2.ViewModels"
+             x:Class="App2.Views.AddTest"
+             BackgroundColor="White">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0,20,0,0"/>
+            <On Platform="Android" Value="0,0,0,0"/>
+            <On Platform="WinPhone" Value="0,0,0,0"/>
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout x:Name="stackLayout"  VerticalOptions="FillAndExpand" Padding="0,0,0,0">
+            <Label Text="You can click on the ads." HorizontalOptions="CenterAndExpand" TextColor="Green" FontSize="25" />
+            <local:AdBanner Size="MediumRectangle" VerticalOptions="EndAndExpand"
+                            WidthRequest="300" HeightRequest="250"
+                            />
+            <Button Text="Interstitial"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="Red"
+                    Clicked="InterstitialAdShowClick"/>
+
+            <local:AdBanner Size="Standardbanner" VerticalOptions="EndAndExpand"
+                            WidthRequest="320" HeightRequest="50"
+                            />
+            <local:AdBanner Size="MediumRectangle" VerticalOptions="EndAndExpand"
+                            WidthRequest="300" HeightRequest="250"
+                            />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage> 

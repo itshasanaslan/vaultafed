@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Profile"
+             xmlns:custom="clr-namespace:App2.ViewModels"
+             x:Class="App2.Views.ProfilePage"
+             BackgroundColor="Azure"
+            >
+    
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label x:Name="LblUsername" Text="username" VerticalOptions="Center" HorizontalOptions="Center"
+                        FontAttributes="Bold" FontSize="20" TextColor="DarkGreen"/>
+                <Label x:Name="LblMail" Text="mail@mail.com" VerticalOptions="Center" HorizontalOptions="Center"
+                        FontAttributes="Bold" FontSize="20" TextColor="DarkGreen"/>
+                <Label x:Name="LblNameLastName" Text="Name Lastname"
+                       VerticalOptions="Center" HorizontalOptions="Center"
+                       FontAttributes="Bold" FontSize="20" TextColor="DarkGreen"/>
+                <ActivityIndicator Color="Red" IsRunning="False"/>
+                <Grid>
+                    <StackLayout>
+                        <Label Text="Max Memory Usage:" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center"
+                               FontSize="22"/>
+                    </StackLayout>
+                    <Label 
+                        x:Name="LblCache" 
+                        Text="100 MB" 
+                        Grid.Column="1" 
+                        FontSize="22"
+                        TextColor="Gray"
+                        />
+                </Grid>
+                <Slider x:Name="SliderMain" ValueChanged="SliderMain_ValueChanged"
+                        Minimum="0"
+                        Maximum="1000"
+                        BackgroundColor="Gray"
+                        
+                        ></Slider>
+
+                <Grid BackgroundColor="LightBlue">
+                    <Label Text="Offline login" VerticalOptions="Center" TextColor="Blue" 
+                       HorizontalOptions="Center" FontSize="20"/>
+                    <CheckBox x:Name="ChxOffline"  IsChecked="False"
+                         HorizontalOptions="End"  CheckedChanged="HandleToggle"  />
+                </Grid>
+                <StackLayout x:Name="StkOffline"  IsEnabled="False" IsVisible="False">
+
+
+                    <custom:CustomEntry
+                                x:Name="EntrySetPassword" Text="" CornerRadius="18"
+                                IsCurvedCornersEnabled="True"  HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center" FontSize="17"
+                                HeightRequest="40" Placeholder="Password"
+                                PlaceholderColor="Gray" BackgroundColor="White"
+                                TextColor="Black" FontAttributes="Bold" Keyboard="Numeric"
+                                WidthRequest="200"    IsPassword="True"/>
+
+
+                    <custom:CustomEntry
+                                x:Name="EntrySetPassword2" Text="" CornerRadius="18"
+                                IsCurvedCornersEnabled="True"  HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center" FontSize="17" WidthRequest="200"
+                                HeightRequest="40" Placeholder="Again" IsPassword="True"
+                                PlaceholderColor="Gray" BackgroundColor="White" Keyboard="Numeric"
+                                TextColor="Black" FontAttributes="Bold"/>
+
+                    <Button x:Name="BtnCheckPassword" Text="Set Password"
+                        BackgroundColor="Blue"
+                        CornerRadius="20" BorderWidth="1" BorderColor="White"
+                        TextColor="White" Clicked="HandleOfflineLogin"
+                        WidthRequest="140" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+
+                <Button x:Name="BtnChangePassword" Text="Change Password"
+                        Clicked="HandleChangePassword" BackgroundColor="Blue"
+                        CornerRadius="20" BorderWidth="1" BorderColor="White"
+                        TextColor="White"
+                        WidthRequest="140" HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="BtnDeleteAccount" Text="Delete Account" 
+                        BackgroundColor="Red" TextColor="White" 
+                        Clicked="HandleDeleteAccount"
+                        CornerRadius="20" BorderWidth="1"
+                        BorderColor="White" WidthRequest="140" 
+                        HorizontalOptions="CenterAndExpand"
+                        />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                <Label x:Name="LblHelp" Text="Help" HorizontalOptions="CenterAndExpand" TextColor="Red"/>
+            </StackLayout>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

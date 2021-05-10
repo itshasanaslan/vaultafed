@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2.ViewModels"
+             Title="About"
+             x:Class="App2.Views.AboutPage"
+             BackgroundColor="DarkCyan"
+
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+            <StackLayout>
+                <Label 
+                        Text="Vaultafed version 2.0"
+                        TextColor="Wheat"
+                        FontAttributes="Italic"
+                        Grid.Column="1"
+                        Grid.Row="0"
+                        HorizontalOptions="Center"
+                        />
+                <StackLayout>
+                    <Frame BackgroundColor="Transparent" BorderColor="Transparent">
+                        <Label
+                    Text="Vaultafed, simply encrypts your files with random and unique algorithm,
+                    saves each file's encryption data on your device locally and
+                    can't access to your data since each file and credential encrypted with random algorithms." 
+                    FontSize="Large"
+                    TextColor="Orange"
+                    TextType="Html"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                       />
+                    </Frame>
+
+                </StackLayout>
+
+
+                <StackLayout VerticalOptions="CenterAndExpand">
+                    <Label 
+                    Text="This is my first application and it will be updated considering your feedbacks and opinions." 
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="BlanchedAlmond"
+                    VerticalOptions="Center"
+                       Padding="30"
+                       />
+                    <StackLayout>
+                        <Frame BackgroundColor="White" BorderColor="Blue">
+                            <StackLayout>
+                                <Image Source="logo_twitter.png"
+                           x:Name="ImgTwitter"
+                           Grid.Column="0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           HeightRequest="45"
+                           />
+
+                                <Label
+                        x:Name="LblTwitter"
+                        Text="Ask me on Twitter"
+                        FontSize="Large"
+                        TextColor="Blue"
+                        VerticalOptions="Center"
+                        HorizontalOptions="CenterAndExpand"
+                           />
+                            </StackLayout>
+
+                        </Frame>
+
+                        <Frame
+                            BackgroundColor="White" BorderColor="Purple">
+                            <StackLayout>
+
+                                <Image
+                        x:Name="ImgInstagram"
+                        Source="logo_instagram.png"
+                        Grid.Column="0"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        HeightRequest="45"
+                        WidthRequest="80"
+                           />
+                                <Label
+                        x:Name="LblInstagram"
+                        Text="Ask me on Instagram"
+                        FontSize="Large"
+                        TextColor="Purple"
+                        VerticalOptions="Center"
+                        HorizontalOptions="CenterAndExpand"
+                           />
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="White" BorderColor="Red">
+                            <StackLayout>
+
+                                <Image
+                        x:Name="ImgMail"
+                        Source="mail_icon.png"
+                        Grid.Column="0"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        HeightRequest="45"
+                        WidthRequest="80"
+                           />
+                                <Label
+                        x:Name="LblMail"
+                        Text="aslanhassan98@gmail.com"
+                        FontSize="Large"
+             
+                        TextColor="Red"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"  
+                           />
+                            </StackLayout>
+                        </Frame>
+
+
+                    </StackLayout>
+
+
+                </StackLayout>
+                <StackLayout>
+                        <Button 
+                        BackgroundColor="Red"
+                        Text="Support"
+                        TextColor="White"
+                         HorizontalOptions="Center"
+                            Clicked="HandleSupport"
+                            />
+                        <Label 
+                        Text="Planned updates"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        TextColor="Yellow"
+                        FontSize="Title"
+                        />
+                    <StackLayout VerticalOptions="Center"
+                                 HorizontalOptions="Center"
+                                 BackgroundColor ="Transparent"
+                                 >
+
+                        <CollectionView x:Name="lstUpdates"  
+                                Grid.ColumnSpan="3"
+                                SelectionMode="Multiple"
+                                EmptyView="oops, it seems everything is fixed."
+                    
+                                    >
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate x:DataType="local:UpdateCalendarLVModel">
+                                    <Frame BorderColor="Red" BackgroundColor="Transparent">
+
+                                        <Grid Padding="0" ColumnSpacing="10">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <VisualStateManager.VisualStateGroups>
+                                                <VisualStateGroup Name="CommonStates">
+                                                    <VisualState Name="Normal" />
+                                                    <VisualState Name="Selected">
+                                                        <VisualState.Setters>
+                                                            <Setter Property="BackgroundColor" Value="Transparent" />
+                                                        </VisualState.Setters>
+                                                    </VisualState>
+                                                </VisualStateGroup>
+                                            </VisualStateManager.VisualStateGroups>
+
+                                            <StackLayout>
+                                                <Label Text="{Binding Description}"
+                                               TextColor="White"
+                                               FontSize="Medium"
+                                              />
+
+                                            </StackLayout>
+                                        </Grid>
+                                    </Frame>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+
+                    </StackLayout>
+                </StackLayout>
+
+
+            </StackLayout>
+        </ScrollView>
+        <StackLayout>
+            <Label
+                            VerticalOptions="Start"
+                            x:Name="LblSite"
+                            Text="www.itshasanaslan.com"
+                            HorizontalOptions="Center"
+                            TextColor="White"
+                            FontSize="Medium"/>
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
