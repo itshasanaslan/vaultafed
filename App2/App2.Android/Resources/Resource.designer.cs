@@ -14,7 +14,7 @@ namespace App2.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.1.0.11")]
 	public partial class Resource
 	{
 		
@@ -563,6 +563,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.barLength = global::App2.Droid.Resource.Attribute.barLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoHide = global::App2.Droid.Resource.Attribute.behavior_autoHide;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoShrink = global::App2.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_draggable = global::App2.Droid.Resource.Attribute.behavior_draggable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_expandedOffset = global::App2.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_fitToContents = global::App2.Droid.Resource.Attribute.behavior_fitToContents;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_halfExpandedRatio = global::App2.Droid.Resource.Attribute.behavior_halfExpandedRatio;
@@ -585,6 +586,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::App2.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopStart = global::App2.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeColor = global::App2.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeErrorColor = global::App2.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidth = global::App2.Droid.Resource.Attribute.boxStrokeWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidthFocused = global::App2.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::App2.Droid.Resource.Attribute.buttonBarButtonStyle;
@@ -746,6 +748,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceMaterialTheme = global::App2.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceTextAppearance = global::App2.Droid.Resource.Attribute.enforceTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ensureMinTouchTargetSize = global::App2.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorContentDescription = global::App2.Droid.Resource.Attribute.errorContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorEnabled = global::App2.Droid.Resource.Attribute.errorEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconDrawable = global::App2.Droid.Resource.Attribute.errorIconDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconTint = global::App2.Droid.Resource.Attribute.errorIconTint;
@@ -790,7 +793,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontWeight = global::App2.Droid.Resource.Attribute.fontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::App2.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gapBetweenBars = global::App2.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gestureInsetBottomIgnored = global::App2.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.goIcon = global::App2.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.haloColor = global::App2.Droid.Resource.Attribute.haloColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.haloRadius = global::App2.Droid.Resource.Attribute.haloRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.headerLayout = global::App2.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.height = global::App2.Droid.Resource.Attribute.height;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperText = global::App2.Droid.Resource.Attribute.helperText;
@@ -806,6 +812,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextColor = global::App2.Droid.Resource.Attribute.hintTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::App2.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeLayout = global::App2.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.horizontalOffset = global::App2.Droid.Resource.Attribute.horizontalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::App2.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.icon = global::App2.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconEndPadding = global::App2.Droid.Resource.Attribute.iconEndPadding;
@@ -847,6 +854,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceInactive = global::App2.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextColor = global::App2.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.keylines = global::App2.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelBehavior = global::App2.Droid.Resource.Attribute.labelBehavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelStyle = global::App2.Droid.Resource.Attribute.labelStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelVisibilityMode = global::App2.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lastBaselineToBottomHeight = global::App2.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout = global::App2.Droid.Resource.Attribute.layout;
@@ -906,6 +915,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxButtonHeight = global::App2.Droid.Resource.Attribute.maxButtonHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxCharacterCount = global::App2.Droid.Resource.Attribute.maxCharacterCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxImageSize = global::App2.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxLines = global::App2.Droid.Resource.Attribute.maxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.measureWithLargestChild = global::App2.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.menu = global::App2.Droid.Resource.Attribute.menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.minTouchTargetSize = global::App2.Droid.Resource.Attribute.minTouchTargetSize;
@@ -918,7 +928,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.numericModifiers = global::App2.Droid.Resource.Attribute.numericModifiers;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.overlapAnchor = global::App2.Droid.Resource.Attribute.overlapAnchor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomNoButtons = global::App2.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomSystemWindowInsets = global::App2.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingEnd = global::App2.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingLeftSystemWindowInsets = global::App2.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingRightSystemWindowInsets = global::App2.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingStart = global::App2.Droid.Resource.Attribute.paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingTopNoTitle = global::App2.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelBackground = global::App2.Droid.Resource.Attribute.panelBackground;
@@ -929,10 +942,16 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleEnabled = global::App2.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTint = global::App2.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTintMode = global::App2.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderText = global::App2.Droid.Resource.Attribute.placeholderText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderTextAppearance = global::App2.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderTextColor = global::App2.Droid.Resource.Attribute.placeholderTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuBackground = global::App2.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuStyle = global::App2.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupTheme = global::App2.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupWindowStyle = global::App2.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixText = global::App2.Droid.Resource.Attribute.prefixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixTextAppearance = global::App2.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixTextColor = global::App2.Droid.Resource.Attribute.prefixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.preserveIconSpacing = global::App2.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.pressedTranslationZ = global::App2.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.progressBarPadding = global::App2.Droid.Resource.Attribute.progressBarPadding;
@@ -957,6 +976,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.seekBarStyle = global::App2.Droid.Resource.Attribute.seekBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackground = global::App2.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::App2.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectionRequired = global::App2.Droid.Resource.Attribute.selectionRequired;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearance = global::App2.Droid.Resource.Attribute.shapeAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceLargeComponent = global::App2.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceMediumComponent = global::App2.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
@@ -971,8 +991,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::App2.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleLine = global::App2.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleSelection = global::App2.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.sliderStyle = global::App2.Droid.Resource.Attribute.sliderStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarButtonStyle = global::App2.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarStyle = global::App2.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarTextViewStyle = global::App2.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spanCount = global::App2.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinBars = global::App2.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::App2.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -1002,6 +1024,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::App2.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextColor = global::App2.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextStyle = global::App2.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixText = global::App2.Droid.Resource.Attribute.suffixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixTextAppearance = global::App2.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixTextColor = global::App2.Droid.Resource.Attribute.suffixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suggestionRowLayout = global::App2.Droid.Resource.Attribute.suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::App2.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchMinWidth = global::App2.Droid.Resource.Attribute.switchMinWidth;
@@ -1060,15 +1085,22 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::App2.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorSearchUrl = global::App2.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textEndPadding = global::App2.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::App2.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputStyle = global::App2.Droid.Resource.Attribute.textInputStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textLocale = global::App2.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textStartPadding = global::App2.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::App2.Droid.Resource.Attribute.theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.themeLineHeight = global::App2.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::App2.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbColor = global::App2.Droid.Resource.Attribute.thumbColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbElevation = global::App2.Droid.Resource.Attribute.thumbElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbRadius = global::App2.Droid.Resource.Attribute.thumbRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTextPadding = global::App2.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTint = global::App2.Droid.Resource.Attribute.thumbTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTintMode = global::App2.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColor = global::App2.Droid.Resource.Attribute.tickColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColorActive = global::App2.Droid.Resource.Attribute.tickColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColorInactive = global::App2.Droid.Resource.Attribute.tickColorInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMark = global::App2.Droid.Resource.Attribute.tickMark;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTint = global::App2.Droid.Resource.Attribute.tickMarkTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTintMode = global::App2.Droid.Resource.Attribute.tickMarkTintMode;
@@ -1090,13 +1122,21 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarStyle = global::App2.Droid.Resource.Attribute.toolbarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipForegroundColor = global::App2.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipFrameBackground = global::App2.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipStyle = global::App2.Droid.Resource.Attribute.tooltipStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipText = global::App2.Droid.Resource.Attribute.tooltipText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.track = global::App2.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColor = global::App2.Droid.Resource.Attribute.trackColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColorActive = global::App2.Droid.Resource.Attribute.trackColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColorInactive = global::App2.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackHeight = global::App2.Droid.Resource.Attribute.trackHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTint = global::App2.Droid.Resource.Attribute.trackTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTintMode = global::App2.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.transitionShapeAppearance = global::App2.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ttcIndex = global::App2.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useCompatPadding = global::App2.Droid.Resource.Attribute.useCompatPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useMaterialThemeColors = global::App2.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.values = global::App2.Droid.Resource.Attribute.values;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.verticalOffset = global::App2.Droid.Resource.Attribute.verticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.viewInflaterClass = global::App2.Droid.Resource.Attribute.viewInflaterClass;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.voiceIcon = global::App2.Droid.Resource.Attribute.voiceIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionBar = global::App2.Droid.Resource.Attribute.windowActionBar;
@@ -1231,6 +1271,13 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_disabled = global::App2.Droid.Resource.Color.material_on_surface_disabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_emphasis_high_type = global::App2.Droid.Resource.Color.material_on_surface_emphasis_high_type;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_emphasis_medium = global::App2.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_stroke = global::App2.Droid.Resource.Color.material_on_surface_stroke;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_active_tick_marks_color = global::App2.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_active_track_color = global::App2.Droid.Resource.Color.material_slider_active_track_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_halo_color = global::App2.Droid.Resource.Color.material_slider_halo_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_tick_marks_color = global::App2.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_track_color = global::App2.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_thumb_color = global::App2.Droid.Resource.Color.material_slider_thumb_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::App2.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::App2.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::App2.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
@@ -1256,6 +1303,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_ripple_color = global::App2.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_text_color = global::App2.Droid.Resource.Color.mtrl_choice_chip_text_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_error = global::App2.Droid.Resource.Color.mtrl_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_bg_color_selector = global::App2.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_icon_text_color_selector = global::App2.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_ripple_color = global::App2.Droid.Resource.Color.mtrl_fab_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_background_color = global::App2.Droid.Resource.Color.mtrl_filled_background_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_icon_tint = global::App2.Droid.Resource.Color.mtrl_filled_icon_tint;
@@ -1291,6 +1340,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::App2.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::App2.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::App2.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.radiobutton_themeable_attribute_color = global::App2.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::App2.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::App2.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::App2.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -1553,6 +1603,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_spacing = global::App2.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::App2.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_text_size = global::App2.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::App2.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::App2.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::App2.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::App2.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
@@ -1596,6 +1647,16 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_large_component = global::App2.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::App2.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_small_component = global::App2.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_halo_radius = global::App2.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_padding = global::App2.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_radius = global::App2.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_square_side = global::App2.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_elevation = global::App2.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_radius = global::App2.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_height = global::App2.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_side_padding = global::App2.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_top = global::App2.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_widget_height = global::App2.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::App2.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::App2.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::App2.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
@@ -1606,10 +1667,17 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::App2.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::App2.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::App2.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_counter_margin_start = global::App2.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::App2.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::App2.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::App2.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_toolbar_default_height = global::App2.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_arrowSize = global::App2.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_cornerSize = global::App2.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_minHeight = global::App2.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_minWidth = global::App2.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_padding = global::App2.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::App2.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_icon_size = global::App2.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_text_size = global::App2.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_big_circle_margin = global::App2.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -1740,6 +1808,13 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::App2.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::App2.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::App2.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_calendar_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_clear_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_edit_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_dialog_background = global::App2.Droid.Resource.Drawable.mtrl_dialog_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_dropdown_arrow = global::App2.Droid.Resource.Drawable.mtrl_dropdown_arrow;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_arrow_drop_down = global::App2.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
@@ -1841,6 +1916,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::App2.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@checked = global::App2.Droid.Resource.Id.@checked;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chip = global::App2.Droid.Resource.Id.chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip1 = global::App2.Droid.Resource.Id.chip1;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip2 = global::App2.Droid.Resource.Id.chip2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip3 = global::App2.Droid.Resource.Id.chip3;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chip_group = global::App2.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::App2.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clear_text = global::App2.Droid.Resource.Id.clear_text;
@@ -1882,12 +1960,14 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_vertical = global::App2.Droid.Resource.Id.fill_vertical;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fitToContents = global::App2.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::App2.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.floating = global::App2.Droid.Resource.Id.floating;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::App2.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::App2.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fragment_container_view_tag = global::App2.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::App2.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::App2.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view_holder = global::App2.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.gone = global::App2.Droid.Resource.Id.gone;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::App2.Droid.Resource.Id.group_divider;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.hideable = global::App2.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::App2.Droid.Resource.Id.home;
@@ -1934,6 +2014,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_card_checked_layer_id = global::App2.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_child_content_container = global::App2.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::App2.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_motion_snapshot_view = global::App2.Droid.Resource.Id.mtrl_motion_snapshot_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_fullscreen = global::App2.Droid.Resource.Id.mtrl_picker_fullscreen;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header = global::App2.Droid.Resource.Id.mtrl_picker_header;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header_selection_text = global::App2.Droid.Resource.Id.mtrl_picker_header_selection_text;
@@ -1968,6 +2049,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_icon = global::App2.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_side = global::App2.Droid.Resource.Id.right_side;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.rounded = global::App2.Droid.Resource.Id.rounded;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.row_index_key = global::App2.Droid.Resource.Id.row_index_key;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.save_non_transition_alpha = global::App2.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.save_overlay_view = global::App2.Droid.Resource.Id.save_overlay_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scale = global::App2.Droid.Resource.Id.scale;
@@ -2026,12 +2108,17 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::App2.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_android_button_tint = global::App2.Droid.Resource.Id.test_checkbox_android_button_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_app_button_tint = global::App2.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_android_button_tint = global::App2.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_app_button_tint = global::App2.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::App2.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::App2.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textEnd = global::App2.Droid.Resource.Id.textEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_counter = global::App2.Droid.Resource.Id.textinput_counter;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_error = global::App2.Droid.Resource.Id.textinput_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_helper_text = global::App2.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_placeholder = global::App2.Droid.Resource.Id.textinput_placeholder;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_prefix_text = global::App2.Droid.Resource.Id.textinput_prefix_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_suffix_text = global::App2.Droid.Resource.Id.textinput_suffix_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoButtons = global::App2.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoTitle = global::App2.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textStart = global::App2.Droid.Resource.Id.textStart;
@@ -2061,8 +2148,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_saved_state_registry_owner = global::App2.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::App2.Droid.Resource.Id.visible;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.visible_removing_fragment_view_tag = global::App2.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.withinBounds = global::App2.Droid.Resource.Id.withinBounds;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.withText = global::App2.Droid.Resource.Id.withText;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content = global::App2.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.zero_corner_chip = global::App2.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::App2.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::App2.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::App2.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -2194,7 +2283,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::App2.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::App2.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::App2.Droid.Resource.Layout.test_action_chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::App2.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::App2.Droid.Resource.Layout.test_design_checkbox;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_radiobutton = global::App2.Droid.Resource.Layout.test_design_radiobutton;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_reflow_chipgroup = global::App2.Droid.Resource.Layout.test_reflow_chipgroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar = global::App2.Droid.Resource.Layout.test_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_custom_background = global::App2.Droid.Resource.Layout.test_toolbar_custom_background;
@@ -2247,8 +2338,12 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_sheet_behavior = global::App2.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::App2.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.icon_content_description = global::App2.Droid.Resource.String.icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.item_view_role_description = global::App2.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.material_slider_range_end = global::App2.Droid.Resource.String.material_slider_range_end;
+			global::Xamarin.Forms.Platform.Android.Resource.String.material_slider_range_start = global::App2.Droid.Resource.String.material_slider_range_start;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_badge_numberless_content_description = global::App2.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_chip_close_icon_content_description = global::App2.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_exceed_max_badge_number_content_description = global::App2.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_exceed_max_badge_number_suffix = global::App2.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_a11y_next_month = global::App2.Droid.Resource.String.mtrl_picker_a11y_next_month;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_a11y_prev_month = global::App2.Droid.Resource.String.mtrl_picker_a11y_prev_month;
@@ -2291,6 +2386,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::App2.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::App2.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::App2.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.AndroidThemeColorAccentYellow = global::App2.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::App2.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::App2.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::App2.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -2369,6 +2465,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::App2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::App2.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::App2.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
@@ -2420,6 +2518,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::App2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat = global::App2.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::App2.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat = global::App2.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -2503,6 +2605,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_Slider = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextView = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
@@ -2576,6 +2679,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeight = global::App2.Droid.Resource.Style.TestStyleWithLineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeightAppearance = global::App2.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithoutLineHeight = global::App2.Droid.Resource.Style.TestStyleWithoutLineHeight;
@@ -2651,7 +2755,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::App2.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_HelperText = global::App2.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::App2.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Placeholder = global::App2.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Prefix = global::App2.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::App2.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Suffix = global::App2.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::App2.Droid.Resource.Style.TextAppearance_Design_Tab;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Badge = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
@@ -2668,9 +2775,11 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::App2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::App2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::App2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlayColorAccentRed = global::App2.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::App2.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::App2.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::App2.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -2698,8 +2807,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
@@ -2877,6 +2988,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::App2.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::App2.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::App2.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputEditText = global::App2.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::App2.Droid.Resource.Style.Widget_Design_TextInputLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::App2.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
@@ -2948,8 +3060,11 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::App2.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::App2.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::App2.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::App2.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Slider = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::App2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::App2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
@@ -2970,6 +3085,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Tooltip = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::App2.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::App2.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout = global::App2.Droid.Resource.Styleable.ActionBarLayout;
@@ -3227,8 +3343,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_backgroundColor = global::App2.Droid.Resource.Styleable.Badge_backgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_badgeGravity = global::App2.Droid.Resource.Styleable.Badge_badgeGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_badgeTextColor = global::App2.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_horizontalOffset = global::App2.Droid.Resource.Styleable.Badge_horizontalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_maxCharacterCount = global::App2.Droid.Resource.Styleable.Badge_maxCharacterCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_number = global::App2.Droid.Resource.Styleable.Badge_number;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_verticalOffset = global::App2.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar = global::App2.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::App2.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_elevation = global::App2.Droid.Resource.Styleable.BottomAppBar_elevation;
@@ -3238,6 +3356,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::App2.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::App2.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::App2.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::App2.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::App2.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::App2.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView = global::App2.Droid.Resource.Styleable.BottomNavigationView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_backgroundTint = global::App2.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_elevation = global::App2.Droid.Resource.Styleable.BottomNavigationView_elevation;
@@ -3254,6 +3375,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
@@ -3261,6 +3383,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout = global::App2.Droid.Resource.Styleable.ButtonBarLayout;
@@ -3285,6 +3408,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacing = global::App2.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::App2.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::App2.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_selectionRequired = global::App2.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleLine = global::App2.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleSelection = global::App2.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_checkable = global::App2.Droid.Resource.Styleable.Chip_android_checkable;
@@ -3295,6 +3419,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_textColor = global::App2.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIcon = global::App2.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconEnabled = global::App2.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconTint = global::App2.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconVisible = global::App2.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipBackgroundColor = global::App2.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipCornerRadius = global::App2.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -3341,6 +3466,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -3388,6 +3514,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::App2.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::App2.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton = global::App2.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_android_enabled = global::App2.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::App2.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::App2.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::App2.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
@@ -3454,6 +3581,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startY = global::App2.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_tileMode = global::App2.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_type = global::App2.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets = global::App2.Droid.Resource.Styleable.Insets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::App2.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::App2.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::App2.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme = global::App2.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::App2.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::App2.Droid.Resource.Styleable.LinearLayoutCompat;
@@ -3485,10 +3616,14 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::App2.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::App2.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::App2.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAutoCompleteTextView = global::App2.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::App2.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton = global::App2.Droid.Resource.Styleable.MaterialButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_background = global::App2.Droid.Resource.Styleable.MaterialButton_android_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_checkable = global::App2.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::App2.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::App2.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
@@ -3545,6 +3680,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox_buttonTint = global::App2.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::App2.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton = global::App2.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton_buttonTint = global::App2.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::App2.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape = global::App2.Droid.Resource.Styleable.MaterialShape;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape_shapeAppearance = global::App2.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
@@ -3625,6 +3761,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::App2.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::App2.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::App2.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RangeSlider = global::App2.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RangeSlider_values = global::App2.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView = global::App2.Droid.Resource.Styleable.RecycleListView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::App2.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::App2.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
@@ -3665,6 +3803,11 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::App2.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::App2.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::App2.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView = global::App2.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_shapeAppearance = global::App2.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::App2.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_strokeColor = global::App2.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_strokeWidth = global::App2.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance = global::App2.Droid.Resource.Styleable.ShapeAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamily = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
@@ -3676,16 +3819,39 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider = global::App2.Droid.Resource.Styleable.Slider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_enabled = global::App2.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_stepSize = global::App2.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_value = global::App2.Droid.Resource.Styleable.Slider_android_value;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_valueFrom = global::App2.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_valueTo = global::App2.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_haloColor = global::App2.Droid.Resource.Styleable.Slider_haloColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_haloRadius = global::App2.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_labelBehavior = global::App2.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_labelStyle = global::App2.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbColor = global::App2.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbElevation = global::App2.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbRadius = global::App2.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColor = global::App2.Droid.Resource.Styleable.Slider_tickColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColorActive = global::App2.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColorInactive = global::App2.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColor = global::App2.Droid.Resource.Styleable.Slider_trackColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColorActive = global::App2.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColorInactive = global::App2.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackHeight = global::App2.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar = global::App2.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout = global::App2.Droid.Resource.Styleable.SnackbarLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::App2.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::App2.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_animationMode = global::App2.Droid.Resource.Styleable.SnackbarLayout_animationMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::App2.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundTint = global::App2.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::App2.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::App2.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::App2.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::App2.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarStyle = global::App2.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::App2.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner = global::App2.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::App2.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_entries = global::App2.Droid.Resource.Styleable.Spinner_android_entries;
@@ -3767,7 +3933,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontVariationSettings = global::App2.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::App2.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textLocale = global::App2.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputEditText = global::App2.Droid.Resource.Styleable.TextInputEditText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::App2.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::App2.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_enabled = global::App2.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::App2.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::App2.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::App2.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -3778,6 +3947,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::App2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::App2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::App2.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
@@ -3792,6 +3962,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconMode = global::App2.Droid.Resource.Styleable.TextInputLayout_endIconMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconTint = global::App2.Droid.Resource.Styleable.TextInputLayout_endIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconTintMode = global::App2.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorContentDescription = global::App2.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::App2.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconDrawable = global::App2.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconTint = global::App2.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
@@ -3811,6 +3982,12 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::App2.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::App2.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::App2.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderText = global::App2.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderTextColor = global::App2.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixText = global::App2.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixTextColor = global::App2.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_shapeAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::App2.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconCheckable = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
@@ -3818,6 +3995,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconDrawable = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconTint = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconTintMode = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixText = global::App2.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixTextColor = global::App2.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement = global::App2.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::App2.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::App2.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -3853,6 +4033,14 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::App2.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::App2.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::App2.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip = global::App2.Droid.Resource.Styleable.Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_layout_margin = global::App2.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_minHeight = global::App2.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_minWidth = global::App2.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_padding = global::App2.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_text = global::App2.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_textAppearance = global::App2.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_backgroundTint = global::App2.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View = global::App2.Droid.Resource.Styleable.View;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::App2.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::App2.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
@@ -3873,6 +4061,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_end = global::App2.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
 			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_start = global::App2.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_top_start = global::App2.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_offset = global::App2.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_in = global::App2.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_out = global::App2.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom = global::App2.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -3999,6 +4188,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.barLength = global::App2.Droid.Resource.Attribute.barLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_autoHide = global::App2.Droid.Resource.Attribute.behavior_autoHide;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_autoShrink = global::App2.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_draggable = global::App2.Droid.Resource.Attribute.behavior_draggable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_expandedOffset = global::App2.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_fitToContents = global::App2.Droid.Resource.Attribute.behavior_fitToContents;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_halfExpandedRatio = global::App2.Droid.Resource.Attribute.behavior_halfExpandedRatio;
@@ -4021,6 +4211,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxCornerRadiusTopEnd = global::App2.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxCornerRadiusTopStart = global::App2.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeColor = global::App2.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeErrorColor = global::App2.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeWidth = global::App2.Droid.Resource.Attribute.boxStrokeWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeWidthFocused = global::App2.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarButtonStyle = global::App2.Droid.Resource.Attribute.buttonBarButtonStyle;
@@ -4182,6 +4373,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceMaterialTheme = global::App2.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceTextAppearance = global::App2.Droid.Resource.Attribute.enforceTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ensureMinTouchTargetSize = global::App2.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorContentDescription = global::App2.Droid.Resource.Attribute.errorContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorEnabled = global::App2.Droid.Resource.Attribute.errorEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconDrawable = global::App2.Droid.Resource.Attribute.errorIconDrawable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconTint = global::App2.Droid.Resource.Attribute.errorIconTint;
@@ -4226,7 +4418,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.fontWeight = global::App2.Droid.Resource.Attribute.fontWeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.foregroundInsidePadding = global::App2.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.gapBetweenBars = global::App2.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Platform.Resource.Attribute.gestureInsetBottomIgnored = global::App2.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Resource.Attribute.goIcon = global::App2.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Platform.Resource.Attribute.haloColor = global::App2.Droid.Resource.Attribute.haloColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.haloRadius = global::App2.Droid.Resource.Attribute.haloRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.headerLayout = global::App2.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.height = global::App2.Droid.Resource.Attribute.height;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperText = global::App2.Droid.Resource.Attribute.helperText;
@@ -4242,6 +4437,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintTextColor = global::App2.Droid.Resource.Attribute.hintTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeAsUpIndicator = global::App2.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeLayout = global::App2.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.horizontalOffset = global::App2.Droid.Resource.Attribute.horizontalOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hoveredFocusedTranslationZ = global::App2.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Attribute.icon = global::App2.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconEndPadding = global::App2.Droid.Resource.Attribute.iconEndPadding;
@@ -4283,6 +4479,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearanceInactive = global::App2.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextColor = global::App2.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.keylines = global::App2.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Platform.Resource.Attribute.labelBehavior = global::App2.Droid.Resource.Attribute.labelBehavior;
+			global::Xamarin.Forms.Platform.Resource.Attribute.labelStyle = global::App2.Droid.Resource.Attribute.labelStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.labelVisibilityMode = global::App2.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lastBaselineToBottomHeight = global::App2.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout = global::App2.Droid.Resource.Attribute.layout;
@@ -4342,6 +4540,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxButtonHeight = global::App2.Droid.Resource.Attribute.maxButtonHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxCharacterCount = global::App2.Droid.Resource.Attribute.maxCharacterCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxImageSize = global::App2.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.maxLines = global::App2.Droid.Resource.Attribute.maxLines;
 			global::Xamarin.Forms.Platform.Resource.Attribute.measureWithLargestChild = global::App2.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.Forms.Platform.Resource.Attribute.menu = global::App2.Droid.Resource.Attribute.menu;
 			global::Xamarin.Forms.Platform.Resource.Attribute.minTouchTargetSize = global::App2.Droid.Resource.Attribute.minTouchTargetSize;
@@ -4354,7 +4553,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.numericModifiers = global::App2.Droid.Resource.Attribute.numericModifiers;
 			global::Xamarin.Forms.Platform.Resource.Attribute.overlapAnchor = global::App2.Droid.Resource.Attribute.overlapAnchor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingBottomNoButtons = global::App2.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingBottomSystemWindowInsets = global::App2.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingEnd = global::App2.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingLeftSystemWindowInsets = global::App2.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingRightSystemWindowInsets = global::App2.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingStart = global::App2.Droid.Resource.Attribute.paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingTopNoTitle = global::App2.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.panelBackground = global::App2.Droid.Resource.Attribute.panelBackground;
@@ -4365,10 +4567,16 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleEnabled = global::App2.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTint = global::App2.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTintMode = global::App2.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderText = global::App2.Droid.Resource.Attribute.placeholderText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderTextAppearance = global::App2.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderTextColor = global::App2.Droid.Resource.Attribute.placeholderTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupMenuBackground = global::App2.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupMenuStyle = global::App2.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupTheme = global::App2.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupWindowStyle = global::App2.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixText = global::App2.Droid.Resource.Attribute.prefixText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixTextAppearance = global::App2.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixTextColor = global::App2.Droid.Resource.Attribute.prefixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.preserveIconSpacing = global::App2.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.pressedTranslationZ = global::App2.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Attribute.progressBarPadding = global::App2.Droid.Resource.Attribute.progressBarPadding;
@@ -4393,6 +4601,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.seekBarStyle = global::App2.Droid.Resource.Attribute.seekBarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackground = global::App2.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackgroundBorderless = global::App2.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Resource.Attribute.selectionRequired = global::App2.Droid.Resource.Attribute.selectionRequired;
 			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearance = global::App2.Droid.Resource.Attribute.shapeAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceLargeComponent = global::App2.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
 			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceMediumComponent = global::App2.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
@@ -4407,8 +4616,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleChoiceItemLayout = global::App2.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleLine = global::App2.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleSelection = global::App2.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Platform.Resource.Attribute.sliderStyle = global::App2.Droid.Resource.Attribute.sliderStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarButtonStyle = global::App2.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarStyle = global::App2.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarTextViewStyle = global::App2.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spanCount = global::App2.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinBars = global::App2.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinnerDropDownItemStyle = global::App2.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -4438,6 +4649,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextAppearance = global::App2.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextColor = global::App2.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextStyle = global::App2.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixText = global::App2.Droid.Resource.Attribute.suffixText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixTextAppearance = global::App2.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixTextColor = global::App2.Droid.Resource.Attribute.suffixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.suggestionRowLayout = global::App2.Droid.Resource.Attribute.suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::App2.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchMinWidth = global::App2.Droid.Resource.Attribute.switchMinWidth;
@@ -4496,15 +4710,22 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textColorAlertDialogListItem = global::App2.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textColorSearchUrl = global::App2.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textEndPadding = global::App2.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Platform.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::App2.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textInputStyle = global::App2.Droid.Resource.Attribute.textInputStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textLocale = global::App2.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textStartPadding = global::App2.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.theme = global::App2.Droid.Resource.Attribute.theme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.themeLineHeight = global::App2.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thickness = global::App2.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbColor = global::App2.Droid.Resource.Attribute.thumbColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbElevation = global::App2.Droid.Resource.Attribute.thumbElevation;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbRadius = global::App2.Droid.Resource.Attribute.thumbRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTextPadding = global::App2.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTint = global::App2.Droid.Resource.Attribute.thumbTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTintMode = global::App2.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColor = global::App2.Droid.Resource.Attribute.tickColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColorActive = global::App2.Droid.Resource.Attribute.tickColorActive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColorInactive = global::App2.Droid.Resource.Attribute.tickColorInactive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMark = global::App2.Droid.Resource.Attribute.tickMark;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMarkTint = global::App2.Droid.Resource.Attribute.tickMarkTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMarkTintMode = global::App2.Droid.Resource.Attribute.tickMarkTintMode;
@@ -4526,13 +4747,21 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.toolbarStyle = global::App2.Droid.Resource.Attribute.toolbarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipForegroundColor = global::App2.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipFrameBackground = global::App2.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipStyle = global::App2.Droid.Resource.Attribute.tooltipStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipText = global::App2.Droid.Resource.Attribute.tooltipText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.track = global::App2.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColor = global::App2.Droid.Resource.Attribute.trackColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColorActive = global::App2.Droid.Resource.Attribute.trackColorActive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColorInactive = global::App2.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackHeight = global::App2.Droid.Resource.Attribute.trackHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.trackTint = global::App2.Droid.Resource.Attribute.trackTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.trackTintMode = global::App2.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.transitionShapeAppearance = global::App2.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ttcIndex = global::App2.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.Forms.Platform.Resource.Attribute.useCompatPadding = global::App2.Droid.Resource.Attribute.useCompatPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.useMaterialThemeColors = global::App2.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Resource.Attribute.values = global::App2.Droid.Resource.Attribute.values;
+			global::Xamarin.Forms.Platform.Resource.Attribute.verticalOffset = global::App2.Droid.Resource.Attribute.verticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.viewInflaterClass = global::App2.Droid.Resource.Attribute.viewInflaterClass;
 			global::Xamarin.Forms.Platform.Resource.Attribute.voiceIcon = global::App2.Droid.Resource.Attribute.voiceIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowActionBar = global::App2.Droid.Resource.Attribute.windowActionBar;
@@ -4667,6 +4896,13 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_disabled = global::App2.Droid.Resource.Color.material_on_surface_disabled;
 			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_emphasis_high_type = global::App2.Droid.Resource.Color.material_on_surface_emphasis_high_type;
 			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_emphasis_medium = global::App2.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_stroke = global::App2.Droid.Resource.Color.material_on_surface_stroke;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_active_tick_marks_color = global::App2.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_active_track_color = global::App2.Droid.Resource.Color.material_slider_active_track_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_halo_color = global::App2.Droid.Resource.Color.material_slider_halo_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_tick_marks_color = global::App2.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_track_color = global::App2.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_thumb_color = global::App2.Droid.Resource.Color.material_slider_thumb_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::App2.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::App2.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_item_tint = global::App2.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
@@ -4692,6 +4928,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_ripple_color = global::App2.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_text_color = global::App2.Droid.Resource.Color.mtrl_choice_chip_text_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_error = global::App2.Droid.Resource.Color.mtrl_error;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_bg_color_selector = global::App2.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_icon_text_color_selector = global::App2.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_ripple_color = global::App2.Droid.Resource.Color.mtrl_fab_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_background_color = global::App2.Droid.Resource.Color.mtrl_filled_background_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_icon_tint = global::App2.Droid.Resource.Color.mtrl_filled_icon_tint;
@@ -4727,6 +4965,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_light = global::App2.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_dark = global::App2.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_light = global::App2.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.radiobutton_themeable_attribute_color = global::App2.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_dark = global::App2.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_light = global::App2.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_dark = global::App2.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -4989,6 +5228,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_spacing = global::App2.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_pressed_translation_z = global::App2.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_text_size = global::App2.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::App2.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::App2.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::App2.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::App2.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
@@ -5032,6 +5272,16 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_large_component = global::App2.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::App2.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_small_component = global::App2.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_halo_radius = global::App2.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_padding = global::App2.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_radius = global::App2.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_square_side = global::App2.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_elevation = global::App2.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_radius = global::App2.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_height = global::App2.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_side_padding = global::App2.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_top = global::App2.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_widget_height = global::App2.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::App2.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::App2.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::App2.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
@@ -5042,10 +5292,17 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::App2.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::App2.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::App2.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_counter_margin_start = global::App2.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::App2.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::App2.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::App2.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_toolbar_default_height = global::App2.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_arrowSize = global::App2.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_cornerSize = global::App2.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_minHeight = global::App2.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_minWidth = global::App2.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_padding = global::App2.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::App2.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_icon_size = global::App2.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_text_size = global::App2.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_big_circle_margin = global::App2.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -5176,6 +5433,13 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_checked_black = global::App2.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_checked_circle = global::App2.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_close_circle = global::App2.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_calendar_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_clear_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_edit_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::App2.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_dialog_background = global::App2.Droid.Resource.Drawable.mtrl_dialog_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_dropdown_arrow = global::App2.Droid.Resource.Drawable.mtrl_dropdown_arrow;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_arrow_drop_down = global::App2.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
@@ -5277,6 +5541,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.checkbox = global::App2.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Resource.Id.@checked = global::App2.Droid.Resource.Id.@checked;
 			global::Xamarin.Forms.Platform.Resource.Id.chip = global::App2.Droid.Resource.Id.chip;
+			global::Xamarin.Forms.Platform.Resource.Id.chip1 = global::App2.Droid.Resource.Id.chip1;
+			global::Xamarin.Forms.Platform.Resource.Id.chip2 = global::App2.Droid.Resource.Id.chip2;
+			global::Xamarin.Forms.Platform.Resource.Id.chip3 = global::App2.Droid.Resource.Id.chip3;
 			global::Xamarin.Forms.Platform.Resource.Id.chip_group = global::App2.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Resource.Id.chronometer = global::App2.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Resource.Id.clear_text = global::App2.Droid.Resource.Id.clear_text;
@@ -5318,12 +5585,14 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.fill_vertical = global::App2.Droid.Resource.Id.fill_vertical;
 			global::Xamarin.Forms.Platform.Resource.Id.fitToContents = global::App2.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Resource.Id.@fixed = global::App2.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Resource.Id.floating = global::App2.Droid.Resource.Id.floating;
 			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_appbar = global::App2.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Xamarin.Forms.Platform.Resource.Id.forever = global::App2.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Resource.Id.fragment_container_view_tag = global::App2.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Resource.Id.FUNCTION = global::App2.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Resource.Id.ghost_view = global::App2.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Resource.Id.ghost_view_holder = global::App2.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Forms.Platform.Resource.Id.gone = global::App2.Droid.Resource.Id.gone;
 			global::Xamarin.Forms.Platform.Resource.Id.group_divider = global::App2.Droid.Resource.Id.group_divider;
 			global::Xamarin.Forms.Platform.Resource.Id.hideable = global::App2.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Resource.Id.home = global::App2.Droid.Resource.Id.home;
@@ -5370,6 +5639,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_card_checked_layer_id = global::App2.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_child_content_container = global::App2.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_internal_children_alpha_tag = global::App2.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_motion_snapshot_view = global::App2.Droid.Resource.Id.mtrl_motion_snapshot_view;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_fullscreen = global::App2.Droid.Resource.Id.mtrl_picker_fullscreen;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header = global::App2.Droid.Resource.Id.mtrl_picker_header;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header_selection_text = global::App2.Droid.Resource.Id.mtrl_picker_header_selection_text;
@@ -5404,6 +5674,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.right_icon = global::App2.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Resource.Id.right_side = global::App2.Droid.Resource.Id.right_side;
 			global::Xamarin.Forms.Platform.Resource.Id.rounded = global::App2.Droid.Resource.Id.rounded;
+			global::Xamarin.Forms.Platform.Resource.Id.row_index_key = global::App2.Droid.Resource.Id.row_index_key;
 			global::Xamarin.Forms.Platform.Resource.Id.save_non_transition_alpha = global::App2.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.Forms.Platform.Resource.Id.save_overlay_view = global::App2.Droid.Resource.Id.save_overlay_view;
 			global::Xamarin.Forms.Platform.Resource.Id.scale = global::App2.Droid.Resource.Id.scale;
@@ -5462,12 +5733,17 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_listeners = global::App2.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_android_button_tint = global::App2.Droid.Resource.Id.test_checkbox_android_button_tint;
 			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_app_button_tint = global::App2.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_android_button_tint = global::App2.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_app_button_tint = global::App2.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Resource.Id.text = global::App2.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Resource.Id.text2 = global::App2.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Resource.Id.textEnd = global::App2.Droid.Resource.Id.textEnd;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_counter = global::App2.Droid.Resource.Id.textinput_counter;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_error = global::App2.Droid.Resource.Id.textinput_error;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_helper_text = global::App2.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_placeholder = global::App2.Droid.Resource.Id.textinput_placeholder;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_prefix_text = global::App2.Droid.Resource.Id.textinput_prefix_text;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_suffix_text = global::App2.Droid.Resource.Id.textinput_suffix_text;
 			global::Xamarin.Forms.Platform.Resource.Id.textSpacerNoButtons = global::App2.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.Forms.Platform.Resource.Id.textSpacerNoTitle = global::App2.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Id.textStart = global::App2.Droid.Resource.Id.textStart;
@@ -5497,8 +5773,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_saved_state_registry_owner = global::App2.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.visible = global::App2.Droid.Resource.Id.visible;
 			global::Xamarin.Forms.Platform.Resource.Id.visible_removing_fragment_view_tag = global::App2.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.Forms.Platform.Resource.Id.withinBounds = global::App2.Droid.Resource.Id.withinBounds;
 			global::Xamarin.Forms.Platform.Resource.Id.withText = global::App2.Droid.Resource.Id.withText;
 			global::Xamarin.Forms.Platform.Resource.Id.wrap_content = global::App2.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Platform.Resource.Id.zero_corner_chip = global::App2.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityDefaultDur = global::App2.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityShortDur = global::App2.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.app_bar_elevation_anim_duration = global::App2.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -5630,7 +5908,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::App2.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::App2.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::App2.Droid.Resource.Layout.test_action_chip;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::App2.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::App2.Droid.Resource.Layout.test_design_checkbox;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_design_radiobutton = global::App2.Droid.Resource.Layout.test_design_radiobutton;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_reflow_chipgroup = global::App2.Droid.Resource.Layout.test_reflow_chipgroup;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar = global::App2.Droid.Resource.Layout.test_toolbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_custom_background = global::App2.Droid.Resource.Layout.test_toolbar_custom_background;
@@ -5683,8 +5963,12 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.String.fab_transformation_sheet_behavior = global::App2.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.hide_bottom_view_on_scroll_behavior = global::App2.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.icon_content_description = global::App2.Droid.Resource.String.icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.item_view_role_description = global::App2.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.Forms.Platform.Resource.String.material_slider_range_end = global::App2.Droid.Resource.String.material_slider_range_end;
+			global::Xamarin.Forms.Platform.Resource.String.material_slider_range_start = global::App2.Droid.Resource.String.material_slider_range_start;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_badge_numberless_content_description = global::App2.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_chip_close_icon_content_description = global::App2.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_exceed_max_badge_number_content_description = global::App2.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_exceed_max_badge_number_suffix = global::App2.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_a11y_next_month = global::App2.Droid.Resource.String.mtrl_picker_a11y_next_month;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_a11y_prev_month = global::App2.Droid.Resource.String.mtrl_picker_a11y_prev_month;
@@ -5727,6 +6011,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow = global::App2.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat = global::App2.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat_Light = global::App2.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.AndroidThemeColorAccentYellow = global::App2.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Dialog = global::App2.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::App2.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::App2.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -5805,6 +6090,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::App2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::App2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat = global::App2.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::App2.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
@@ -5856,6 +6143,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light = global::App2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::App2.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat = global::App2.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat_Light = global::App2.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V23_Theme_AppCompat = global::App2.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -5939,6 +6230,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_Slider = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextView = global::App2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
@@ -6012,6 +6304,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::App2.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeight = global::App2.Droid.Resource.Style.TestStyleWithLineHeight;
 			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeightAppearance = global::App2.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
 			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithoutLineHeight = global::App2.Droid.Resource.Style.TestStyleWithoutLineHeight;
@@ -6087,7 +6380,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Error = global::App2.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_HelperText = global::App2.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Hint = global::App2.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Placeholder = global::App2.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Prefix = global::App2.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Snackbar_Message = global::App2.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Suffix = global::App2.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Tab = global::App2.Droid.Resource.Style.TextAppearance_Design_Tab;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Badge = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
@@ -6104,9 +6400,11 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Overline = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::App2.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::App2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::App2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::App2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlayColorAccentRed = global::App2.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat = global::App2.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::App2.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark = global::App2.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -6134,8 +6432,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::App2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
@@ -6313,6 +6613,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::App2.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_Snackbar = global::App2.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TabLayout = global::App2.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TextInputEditText = global::App2.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TextInputLayout = global::App2.Droid.Resource.Style.Widget_Design_TextInputLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::App2.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
@@ -6384,8 +6685,11 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::App2.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::App2.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::App2.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::App2.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Slider = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout = global::App2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::App2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
@@ -6406,6 +6710,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Tooltip = global::App2.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Support_CoordinatorLayout = global::App2.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBar = global::App2.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBarLayout = global::App2.Droid.Resource.Styleable.ActionBarLayout;
@@ -6663,8 +6968,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_backgroundColor = global::App2.Droid.Resource.Styleable.Badge_backgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_badgeGravity = global::App2.Droid.Resource.Styleable.Badge_badgeGravity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_badgeTextColor = global::App2.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_horizontalOffset = global::App2.Droid.Resource.Styleable.Badge_horizontalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_maxCharacterCount = global::App2.Droid.Resource.Styleable.Badge_maxCharacterCount;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_number = global::App2.Droid.Resource.Styleable.Badge_number;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_verticalOffset = global::App2.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar = global::App2.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_backgroundTint = global::App2.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_elevation = global::App2.Droid.Resource.Styleable.BottomAppBar_elevation;
@@ -6674,6 +6981,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::App2.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::App2.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_hideOnScroll = global::App2.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::App2.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::App2.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::App2.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView = global::App2.Droid.Resource.Styleable.BottomNavigationView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_backgroundTint = global::App2.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_elevation = global::App2.Droid.Resource.Styleable.BottomNavigationView_elevation;
@@ -6690,6 +7000,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
@@ -6697,6 +7008,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::App2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ButtonBarLayout = global::App2.Droid.Resource.Styleable.ButtonBarLayout;
@@ -6721,6 +7033,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacing = global::App2.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::App2.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacingVertical = global::App2.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_selectionRequired = global::App2.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_singleLine = global::App2.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_singleSelection = global::App2.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_checkable = global::App2.Droid.Resource.Styleable.Chip_android_checkable;
@@ -6731,6 +7044,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_textColor = global::App2.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIcon = global::App2.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconEnabled = global::App2.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconTint = global::App2.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconVisible = global::App2.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipBackgroundColor = global::App2.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipCornerRadius = global::App2.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -6777,6 +7091,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::App2.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -6824,6 +7139,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::App2.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::App2.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton = global::App2.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_android_enabled = global::App2.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTint = global::App2.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::App2.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::App2.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
@@ -6890,6 +7206,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_startY = global::App2.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_tileMode = global::App2.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_type = global::App2.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets = global::App2.Droid.Resource.Styleable.Insets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::App2.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::App2.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::App2.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme = global::App2.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::App2.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat = global::App2.Droid.Resource.Styleable.LinearLayoutCompat;
@@ -6921,10 +7241,14 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::App2.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::App2.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::App2.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAutoCompleteTextView = global::App2.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::App2.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton = global::App2.Droid.Resource.Styleable.MaterialButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::App2.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_background = global::App2.Droid.Resource.Styleable.MaterialButton_android_background;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_checkable = global::App2.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetBottom = global::App2.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetLeft = global::App2.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
@@ -6981,6 +7305,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox_buttonTint = global::App2.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::App2.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton = global::App2.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton_buttonTint = global::App2.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::App2.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape = global::App2.Droid.Resource.Styleable.MaterialShape;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape_shapeAppearance = global::App2.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
@@ -7061,6 +7386,8 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::App2.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_android_popupBackground = global::App2.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_overlapAnchor = global::App2.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RangeSlider = global::App2.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RangeSlider_values = global::App2.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView = global::App2.Droid.Resource.Styleable.RecycleListView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::App2.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::App2.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
@@ -7101,6 +7428,11 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_submitBackground = global::App2.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_suggestionRowLayout = global::App2.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_voiceIcon = global::App2.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView = global::App2.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_shapeAppearance = global::App2.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::App2.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_strokeColor = global::App2.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_strokeWidth = global::App2.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance = global::App2.Droid.Resource.Styleable.ShapeAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamily = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
@@ -7112,16 +7444,39 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::App2.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider = global::App2.Droid.Resource.Styleable.Slider;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_enabled = global::App2.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_stepSize = global::App2.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_value = global::App2.Droid.Resource.Styleable.Slider_android_value;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_valueFrom = global::App2.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_valueTo = global::App2.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_haloColor = global::App2.Droid.Resource.Styleable.Slider_haloColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_haloRadius = global::App2.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_labelBehavior = global::App2.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_labelStyle = global::App2.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbColor = global::App2.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbElevation = global::App2.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbRadius = global::App2.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColor = global::App2.Droid.Resource.Styleable.Slider_tickColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColorActive = global::App2.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColorInactive = global::App2.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColor = global::App2.Droid.Resource.Styleable.Slider_trackColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColorActive = global::App2.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColorInactive = global::App2.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackHeight = global::App2.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar = global::App2.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout = global::App2.Droid.Resource.Styleable.SnackbarLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::App2.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_android_maxWidth = global::App2.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_animationMode = global::App2.Droid.Resource.Styleable.SnackbarLayout_animationMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::App2.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundTint = global::App2.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::App2.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_elevation = global::App2.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::App2.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarButtonStyle = global::App2.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarStyle = global::App2.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::App2.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner = global::App2.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_dropDownWidth = global::App2.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_entries = global::App2.Droid.Resource.Styleable.Spinner_android_entries;
@@ -7203,7 +7558,10 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_fontVariationSettings = global::App2.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textAllCaps = global::App2.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textLocale = global::App2.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputEditText = global::App2.Droid.Resource.Styleable.TextInputEditText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::App2.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout = global::App2.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_enabled = global::App2.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_hint = global::App2.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_textColorHint = global::App2.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::App2.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -7214,6 +7572,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::App2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::App2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeColor = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::App2.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterEnabled = global::App2.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
@@ -7228,6 +7587,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconMode = global::App2.Droid.Resource.Styleable.TextInputLayout_endIconMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconTint = global::App2.Droid.Resource.Styleable.TextInputLayout_endIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconTintMode = global::App2.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorContentDescription = global::App2.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorEnabled = global::App2.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconDrawable = global::App2.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconTint = global::App2.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
@@ -7247,6 +7607,12 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::App2.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleTint = global::App2.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::App2.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderText = global::App2.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderTextColor = global::App2.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixText = global::App2.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixTextColor = global::App2.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_shapeAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::App2.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconCheckable = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
@@ -7254,6 +7620,9 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconDrawable = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconTint = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconTintMode = global::App2.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixText = global::App2.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::App2.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixTextColor = global::App2.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement = global::App2.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::App2.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::App2.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -7289,6 +7658,14 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMarginTop = global::App2.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextAppearance = global::App2.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextColor = global::App2.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip = global::App2.Droid.Resource.Styleable.Tooltip;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_layout_margin = global::App2.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_minHeight = global::App2.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_minWidth = global::App2.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_padding = global::App2.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_text = global::App2.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_textAppearance = global::App2.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_backgroundTint = global::App2.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View = global::App2.Droid.Resource.Styleable.View;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper = global::App2.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_android_background = global::App2.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
@@ -7309,6 +7686,7 @@ namespace App2.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_end = global::App2.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::App2.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::App2.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::App2.Droid.Resource.Xml.standalone_badge_offset;
 		}
 		
 		public partial class Animation
@@ -11547,164 +11925,176 @@ namespace App2.Droid
 			// aapt resource value: 0x7F07006C
 			public const int dont_show_password = 2131165292;
 			
-			// aapt resource value: 0x7F070075
-			public const int icons_about = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int icons_home = 2131165302;
-			
-			// aapt resource value: 0x7F070077
-			public const int icons_username = 2131165303;
-			
-			// aapt resource value: 0x7F070071
-			public const int icon_add_note = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int icon_notes_tab = 2131165298;
-			
-			// aapt resource value: 0x7F070073
-			public const int icon_passwords_tab = 2131165299;
-			
-			// aapt resource value: 0x7F070074
-			public const int icon_photos_tab = 2131165300;
-			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_checked_circle = 2131165293;
-			
-			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_checked_black = 2131165294;
-			
-			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_checked_circle = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int ic_mtrl_chip_close_circle = 2131165296;
-			
-			// aapt resource value: 0x7F070078
-			public const int LoginIcon = 2131165304;
+			public const int folders_icon = 2131165293;
 			
 			// aapt resource value: 0x7F070079
-			public const int LoginIcon2 = 2131165305;
+			public const int icons_about = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int logo_instagram = 2131165306;
+			public const int icons_home = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int logo_twitter = 2131165307;
+			public const int icons_username = 2131165307;
+			
+			// aapt resource value: 0x7F070072
+			public const int icon_add_note = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int icon_all_files = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int icon_audio = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int icon_notes_tab = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int icon_passwords_tab = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int icon_photos = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int icon_video = 2131165304;
+			
+			// aapt resource value: 0x7F07006E
+			public const int ic_mtrl_checked_circle = 2131165294;
+			
+			// aapt resource value: 0x7F07006F
+			public const int ic_mtrl_chip_checked_black = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int ic_mtrl_chip_checked_circle = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int ic_mtrl_chip_close_circle = 2131165297;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mail_icon = 2131165308;
+			public const int LoginIcon = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int material_ic_calendar_black_24dp = 2131165309;
+			public const int LoginIcon2 = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int material_ic_clear_black_24dp = 2131165310;
+			public const int logo_instagram = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int material_ic_edit_black_24dp = 2131165311;
+			public const int logo_twitter = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165312;
+			public const int mail_icon = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165313;
+			public const int material_ic_calendar_black_24dp = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165314;
+			public const int material_ic_clear_black_24dp = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165315;
+			public const int material_ic_edit_black_24dp = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int minus = 2131165316;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int mtrl_dialog_background = 2131165317;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int mtrl_dropdown_arrow = 2131165318;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int mtrl_ic_arrow_drop_down = 2131165319;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int mtrl_ic_arrow_drop_up = 2131165320;
+			public const int minus = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int mtrl_ic_cancel = 2131165321;
+			public const int mtrl_dialog_background = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int mtrl_ic_error = 2131165322;
+			public const int mtrl_dropdown_arrow = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int mtrl_popupmenu_background = 2131165323;
+			public const int mtrl_ic_arrow_drop_down = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int mtrl_popupmenu_background_dark = 2131165324;
+			public const int mtrl_ic_arrow_drop_up = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int mtrl_tabs_default_indicator = 2131165325;
+			public const int mtrl_ic_cancel = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int navigation_empty_icon = 2131165326;
+			public const int mtrl_ic_error = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_action_background = 2131165327;
+			public const int mtrl_popupmenu_background = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_bg = 2131165328;
+			public const int mtrl_popupmenu_background_dark = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notification_bg_low = 2131165329;
+			public const int mtrl_tabs_default_indicator = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int notification_bg_low_normal = 2131165330;
+			public const int navigation_empty_icon = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int notification_bg_low_pressed = 2131165331;
+			public const int notification_action_background = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int notification_bg_normal = 2131165332;
+			public const int notification_bg = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int notification_bg_normal_pressed = 2131165333;
+			public const int notification_bg_low = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int notification_icon_background = 2131165334;
+			public const int notification_bg_low_normal = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int notification_template_icon_bg = 2131165335;
+			public const int notification_bg_low_pressed = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int notification_template_icon_low_bg = 2131165336;
+			public const int notification_bg_normal = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int notification_tile_bg = 2131165337;
+			public const int notification_bg_normal_pressed = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int notify_panel_notification_icon_bg = 2131165338;
+			public const int notification_icon_background = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int password = 2131165339;
+			public const int notification_template_icon_bg = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int show_password = 2131165340;
+			public const int notification_template_icon_low_bg = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int Splash = 2131165341;
+			public const int notification_tile_bg = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int test_custom_background = 2131165342;
+			public const int notify_panel_notification_icon_bg = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int tooltip_frame_dark = 2131165343;
+			public const int password = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int tooltip_frame_light = 2131165344;
+			public const int show_password = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int username = 2131165345;
+			public const int Splash = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int test_custom_background = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int tooltip_frame_dark = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int tooltip_frame_light = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int username = 2131165349;
 			
 			static Drawable()
 			{
