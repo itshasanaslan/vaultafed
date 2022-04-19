@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.NotesPages.NoteInfoPage"
+             BackgroundColor="{AppThemeBinding Light=White, Dark=Gray}"
+             >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tlbEdit" Text="Edit" Clicked="HandleEdit"/>
+        <ToolbarItem x:Name="tlbDelete" Text ="Delete" Clicked="HandleDelete"/>
+      
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <StackLayout Padding="20" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label x:Name="LblTitle" 
+                       Text="Name" FontSize="50" VerticalOptions="Center" HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light=Blue , Dark=Red}"/>
+                    <Label x:Name="LblContent" HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                        Text="Hey, this is my template content! In the future, I'll add more. See you till then!"
+                       FontSize="Large"/>
+                    <Label x:Name="LblAddedTime" HorizontalOptions="Center"
+                   Text="20.02.2020 23:50:17" FontSize="Small"
+                       TextColor="{AppThemeBinding Light=Black, Dark=Wheat}"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+        <StackLayout>
+            <Button x:Name="BtnCopy"   Text="Copy" CornerRadius="20" 
+                     BorderWidth="1" WidthRequest="140"
+                     BackgroundColor="Red" TextColor="White" FontAttributes="Bold" 
+                     HorizontalOptions="CenterAndExpand" Clicked="HandleCopy" />
+        </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

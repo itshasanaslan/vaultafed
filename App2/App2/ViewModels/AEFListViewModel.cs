@@ -15,9 +15,11 @@ namespace App2.ViewModels
         public ObservableCollection<AEF> FilesSource { get; set; }
         public ObservableCollection<Notes> NotesSource { get; set; }
         public ObservableCollection<Passwords> PasswordsSource { get; set; }
+        public ObservableCollection<AEFFolder> FoldersSource { get; set; }
         public bool fileSourceInitialized { get; set; }
         public bool noteSourceInitialized { get; set; }
         public bool passwordSourceInitialized { get; set; }
+        public bool folderSourceInitialized { get; set; }
 
 
 
@@ -26,6 +28,7 @@ namespace App2.ViewModels
             FilesSource = new ObservableCollection<AEF>();
             NotesSource = new ObservableCollection<Notes>();
             PasswordsSource = new ObservableCollection<Passwords>();
+            FoldersSource = new ObservableCollection<AEFFolder>();
            
 
             /*
@@ -61,7 +64,7 @@ namespace App2.ViewModels
         {
             this.PasswordsSource.Remove(password);
         }
-
+        
 
 
         public void Sort(string orderHow)

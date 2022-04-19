@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-
+#pragma warning disable CS0618
 namespace App2.ViewModels
 {
 

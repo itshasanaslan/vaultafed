@@ -7,11 +7,15 @@ using System.Drawing;
 using System.Diagnostics;
 using Xamarin.Forms;
 using System.Linq.Expressions;
+using SQLite;
+using App2.Business.Concretes;
 
 namespace App2.Models
 { // in android directory names seperated with /, not with \
-   public class AEF 
+    [Table("Files")]
+    public class AEF
     {
+        static ImageResizer imageResizer = new ImageResizer();
         static string DirectorySeperator = "/";
         static string Extension = ".afed";
 
@@ -25,35 +29,74 @@ namespace App2.Models
 
         public static bool directoryCrawl = false;
 
-        public string EncryptionMethod;
+        [PrimaryKey, AutoIncrement, Unique]
+        [Column("file_id")]
+        public int Id { get; set; }
+
+        [Column("folder_id")]
+        public int FolderId { get; set; }
+
+        [Column("user_id")]
+        public int UserId { get; set; }
+
+        [Column("encryption_method")]
+        public string EncryptionMethod { get; set; }
+
+        [Column("original_path")]
         public string OriginalPath { get; set; }  //storage/0/DCIM/1.jpg but this is original, not encrypted.
+
+        [Column("parent_directory")]
         public string ParentDirectory { get; set; }
+
+        [Column("filename")]
         public string Name { get; set; } // file
+
+        [Column("original_extension")]
         public string OriginalExtension { get; set; } // .jpg
+
+        [Column("current_extension")]
         public string CurrentExtension { get; set; }
+
+        [Column("fullname")]
         public string FullName { get; set; } //file.jpg
+
+        [Column("encrypted_filename")]
         public string EncryptedFileName { get; set; } //afedASD+5R.afed
+
+        [Column("output_name")]
         public string OutputName { get; set; }  //storage/0/DCIM/1.jpg or //storage/0/DCIM/afedA^+Fas.afed
+
+        [Column("thumbnail_path")]
         public string ThumbPath { get; set; }
+
+        [Column("file_size")]
         public string FileSize { get; set; }
+
+        [Column("added_time")]
         public string AddedTime { get; set; }
+        [Column("actual_added_time")]
         public DateTime ActualAddedTime { get; set; }
 
-        public float ActualFileSize;
+        [Column("actual_file_size")]
+        public float ActualFileSize { get; set; }
+
+        [Column("is_encrypted")]
         public bool IsEncrypted { get; set; }
+       
         public bool OnStream = false;
+
         public bool isSelected = false; // for listview
         
         public List<byte> OutputData;
 
-        public AEF(string path)
+        public AEF(string path, string thumbPath)
         {
             this.OriginalPath = path;
             this.ParseName("init");
             this.AddedTime = DateTime.Now.ToString();
             this.FileSize = "Not calculated yet.";
-            this.ThumbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "thumbs");
-            this.ThumbPath += AEF.DirectorySeperator + AEF.GenerateRandomName(10) + ".jpg";
+            //this.ThumbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "thumbs");
+            this.ThumbPath = Path.Combine(thumbPath, AEF.GenerateRandomName(10));
             this.ActualAddedTime = DateTime.Parse(this.AddedTime);
         }
 
@@ -120,10 +163,11 @@ namespace App2.Models
 
         }
 
-        public bool Encrypt()
+        public bool Encrypt(byte[] fileBytes)
         {
             this.EncryptionMethod = FileManipulation.ChooseMethod(this.OriginalExtension);
-            byte[] fileBytes = File.ReadAllBytes(this.OriginalPath);
+            //byte[] fileBytes = File.ReadAllBytes(this.OriginalPath);
+            
             this.SignFile();
 
             switch (this.EncryptionMethod)
@@ -184,6 +228,10 @@ namespace App2.Models
             else
             {
                 File.Delete(this.ParentDirectory + AEF.DirectorySeperator + this.EncryptedFileName);
+                if (File.Exists(this.ThumbPath))
+                {
+                    File.Delete(this.ThumbPath);
+                }
             }
 
         }
@@ -201,7 +249,7 @@ namespace App2.Models
         public string GetFileInfo()
         {
             return $"{this.FullName}\n\nPath: {this.OriginalPath}\n\nCurrent " +
-                $"Path: {this.ParentDirectory + AEF.DirectorySeperator + this.EncryptedFileName}\n\nEncrypted at: {this.AddedTime}\n\nSize: {this.FileSize}";
+                $"Path: {this.ParentDirectory + AEF.DirectorySeperator + this.EncryptedFileName}\n\nFolder: {FolderId.ToString()}\nEncrypted at: {this.AddedTime}\n\nSize: {this.FileSize}";
             
         }
 
@@ -213,19 +261,7 @@ namespace App2.Models
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
-        public bool GenerateThumbnail()
-        {
-            try
-            {
-               
-                return true;
-            }
-            catch(Exception f)
-            {
-                Debug.WriteLine(f.Message);
-                return false;
-            }
-        }
+     
         
         public bool CopyToStream()
         {
@@ -258,7 +294,7 @@ namespace App2.Models
 
         public bool IsVideo()
         {
-            string[] e = new string[] { ".mp4",".flv", ".3gp", ".webm", ".m4a", ".mp3" };
+            string[] e = new string[] { ".mp4",".flv", ".3gp", ".webm" };
             foreach(string i in e)
             {
                 if (i == this.OriginalExtension)
@@ -267,6 +303,21 @@ namespace App2.Models
                 }
             }
             return false;
+        }
+
+        public bool IsAudio()
+        {
+            string[] e = new string[] { ".m4a", ".mp3" };
+            foreach (string i in e)
+            {
+                if (i == this.OriginalExtension)
+                {
+                    return true;
+                }
+            }
+            return false;
+
+          
         }
 
         string CalculateFileSize()

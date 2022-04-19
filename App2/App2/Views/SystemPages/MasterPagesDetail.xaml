@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.SystemPages.MasterPagesDetail"
+             xmlns:views="clr-namespace:App2.Views.SystemPages"  
+             Title="HomePage"
+            >
+
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="ImgPhotos" 
+                       Source="icon_photos.png"
+                       HeightRequest="70"
+                       VerticalOptions="Center"
+                       HorizontalOptions ="Center"
+                       Margin="10" ></Image>
+
+            <Label x:Name="lblPhotosInfo" 
+                   Text="..." 
+                    Grid.Row="1" 
+                   VerticalOptions="Center"
+                   FontSize="Small"
+                   TextColor="Green"
+                   HorizontalOptions="Center" />
+                
+                
+            <Label Text="Photos" 
+                       Grid.Row="1" 
+                   FontAttributes="Bold"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Center" />
+            <Image x:Name="ImgVideos" 
+                       Source="icon_video.png" 
+                       HeightRequest="70" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions ="Center"
+                       Grid.Column="1"
+                       Margin="10" ></Image>
+
+            <Label x:Name="lblVideosInfo" 
+                   Text="..." 
+                    Grid.Row="1"
+                   Grid.Column="1"
+                   VerticalOptions="Center"
+                   FontSize="Small"
+                   TextColor="Green"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Videos"
+                       Grid.Row="1" 
+                      VerticalOptions="Start" 
+                       HorizontalOptions ="Center"
+                       Grid.Column="1"
+                       />
+
+            </Grid>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="ImgAudios" 
+                       Source="icon_audio.png"
+                       HeightRequest="70"
+                       VerticalOptions="Center"
+                       HorizontalOptions ="Center"
+                       Margin="10" ></Image>
+            <Label x:Name="lblAudiosInfo" 
+                   Text="..." 
+                    Grid.Row="1"
+                  
+                   VerticalOptions="Center"
+                   FontSize="Small"
+                   TextColor="Green"
+                   HorizontalOptions="Center" />
+            <Label Text="Audios" 
+                       Grid.Row="1" 
+                       VerticalOptions="Start"
+                       HorizontalOptions="Center" />
+            <Image x:Name="ImgGenericData" 
+                       Source="icon_all_files.png" 
+                       HeightRequest="70" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions ="Center"
+                       Grid.Column="1"
+                       Margin="10" ></Image>
+
+            <Label x:Name="lblGenericInfo" 
+                   Text="..." 
+                    Grid.Row="1"
+                   Grid.Column="1"
+                   VerticalOptions="Center"
+                   FontSize="Small"
+                   TextColor="Green"
+                   HorizontalOptions="Center" />
+
+            <Label Text="All Folders"
+                       Grid.Row="1" 
+                      VerticalOptions="Start" 
+                       HorizontalOptions ="Center"
+                       Grid.Column="1"
+                       />
+        </Grid>
+
+
+        <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image 
+                    x:Name="ImgPasswords"
+                       Source="icon_passwords_tab.png"
+                       HeightRequest="70"
+                       VerticalOptions="Center"
+                       HorizontalOptions ="Center"
+                       Margin="10" ></Image>
+            <Label x:Name="lblPasswordsInfo" 
+                   Text="..." 
+                    Grid.Row="1"
+                  
+                   VerticalOptions="Center"
+                   FontSize="Small"
+                   TextColor="Green"
+                   HorizontalOptions="Center" />
+
+                <Label Text="Passwords" 
+                       Grid.Row="1" 
+                       VerticalOptions="Start"
+                       HorizontalOptions="Center"
+                       />
+
+                <Image 
+                    x:Name="ImgNotes"
+                       Source="icon_add_note.png" 
+                       HeightRequest="70" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions ="Center"
+                       Grid.Column="1"
+                       Margin="10" ></Image>
+            <Label x:Name="lblNotesInfo" 
+                   Text="..." 
+                    Grid.Row="1"
+                  Grid.Column= "1"
+                   VerticalOptions="Center"
+                   FontSize="Small"
+                   TextColor="Green"
+                   HorizontalOptions="Center" />
+
+                <Label Text="Notes"
+                       Grid.Row="1" 
+                      VerticalOptions="Start" 
+                       HorizontalOptions ="Center"
+                       Grid.Column="1"
+                       />
+
+            </Grid>
+        <ActivityIndicator x:Name="activitySpinner" IsRunning="False"></ActivityIndicator>
+    </StackLayout>
+        
+
+    </ContentPage>
+
+
+
+

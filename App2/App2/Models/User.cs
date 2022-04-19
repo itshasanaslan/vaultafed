@@ -2,57 +2,58 @@
 using System.Collections.Generic;
 using System.Text;
 using App2.Data;
+using SQLite;
 
 namespace App2.Models
 {
-    //[Table("Users")]
+    [Table("Users")]
     public class User
     {
-        /*
+        
         [PrimaryKey, AutoIncrement, Unique]
         [Column("id")]
         public int Id { get; set; }
+
         [Unique]
         [Column("username")]
-        public string Username { get; set; }
+        public string username { get; set; }
 
         [Column("password")]
-        public string Password { get; set; }
+        public string password { get; set; }
 
         [Column("name")]
-        public string Name { get; set; }
+        public string name { get; set; }
 
         [Column("lastName")]
-        public string LastName { get; set; }
+        public string lastName { get; set; }
+
         [Unique]
         [Column("emailAddress")]
-        public string EmailAddress { get; set; }
-
-        public User() { }
-        public User(string username, string password)
-        {
-            this.Username = username;
-            this.Password = password;
-        }
-        */
-        public string name { get; set; }
-        public string lastName { get; set; }
         public string eMail { get; set; }
-        public string password { get; set; }
-        public string username { get; set; }
+
         public int hasPurchased { get; set; }
         public string AuthCode { get; set; }
 
+        public User() {
+            this.hasPurchased = 0;
+        }
         public User(string username, string password)
         {
             this.username = username;
             this.password = password;
-            this.hasPurchased = 0;
         }
-        public User()
+
+        public string GetAllProp()
         {
-            this.hasPurchased = 0;
+            string o = "";
+            foreach (var prop in this.GetType().GetProperties())
+            {
+                o += prop.Name + " : " + prop.GetValue(this, null) + "\n";
+            }
+
+            return o;
         }
+
 
         public bool CheckInformation()
         {
@@ -63,5 +64,29 @@ namespace App2.Models
             return false;
         }
 
+        public int GetId() { return this.Id; }
+        public void SetId(int id) { this.Id = id; }
+
+        public string GetUsername() { return this.username; }
+        public void SetUsername(string username) { this.username = username; }
+
+        public string GetPassword() { return this.password; }
+        public void SetPassword(string password) { this.password = password; }
+
+        public string GetName() { return this.name; }
+        public void SetName(string name) { this.name = name; }
+
+        public string GetLastName() { return this.lastName; }
+        public void SetLastName(string lastName) { this.lastName = lastName; }
+
+        public string GetEmail() { return this.eMail; }
+        public void SetEmail(string eMail) { this.eMail = eMail; }
+
+        public string GetAuthCode() { return this.AuthCode; }
+        public void SetAuthCode(string code) { this.AuthCode = code; }
+
+        public int GetHasPurchased() { return this.hasPurchased; }
+        public void SetHasPurchased(int val) { this.hasPurchased = val; }
+         
     }
 }

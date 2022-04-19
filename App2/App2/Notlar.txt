@@ -1,0 +1,7 @@
+﻿Decrypt ederken klasör seçebilsin.
+Hem fileinfopage icinde hem de listede decrypt edeceği pathi secsin.
+
+Veritabanı yedekle, geri yükle secenekleri ekle.
+
+Dosyaların metadatasını dosyalara yaz.
+Tarihlerini bozma.

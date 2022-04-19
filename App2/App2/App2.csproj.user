@@ -5,7 +5,7 @@
     <HasHotReloadOverlayBeenDismissed>true</HasHotReloadOverlayBeenDismissed>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Views\MasterPagesMasterMenuItem.cs">
+    <Compile Update="Models\MasterPagesMasterMenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

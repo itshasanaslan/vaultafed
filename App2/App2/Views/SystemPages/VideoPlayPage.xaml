@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:o="clr-namespace:Octane.Xamarin.Forms.VideoPlayer;assembly=Octane.Xamarin.Forms.VideoPlayer"
+              xmlns:local="clr-namespace:App2.ViewModels.ZoomExtensions"
+             NavigationPage.HasNavigationBar="True"
+             Title="{Binding FullName}"
+             x:Class="App2.Views.SystemPages.VideoPlayPage">
+    <ContentPage.Content>
+        <local:PinchToZoomContainer>
+                    <o:VideoPlayer  
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        x:Name="VideoToShow"
+                        AutoPlay="True"
+                        FillMode="ResizeAspectFill"
+                           />
+                </local:PinchToZoomContainer>
+
+
+    </ContentPage.Content>
+</ContentPage>
